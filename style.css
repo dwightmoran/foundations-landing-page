@@ -70,10 +70,7 @@ ul {
 }
 
 .placeholder {
-    display: flex;
-    max-width: 100%;
-    align-self: center;
-    margin-top: 50px;
+    width: 100%;
 }
 
 .imgcontainer {
@@ -91,5 +88,4 @@ button {
     padding: 10px;
     width: 100px;
     height: 35px;
-
 }
