@@ -89,3 +89,26 @@ button {
     width: 100px;
     height: 35px;
 }
+
+.secondtitle {
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 32px;
+}
+
+.squareimages {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.image1, .image2, .image3, .image4 {
+    text-align: center;
+    width: 150px;
+}
+
+.caption1, .caption2, .caption3, .caption4  {
+    display: block; 
+}
