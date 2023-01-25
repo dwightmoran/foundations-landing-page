@@ -67,6 +67,7 @@ ul {
     filter: contrast(50%);
     margin:8px;
     color: #E5E7EB;
+    max-width: 500px;
 }
 
 .placeholder {
@@ -80,14 +81,16 @@ ul {
     margin-right: auto;
 }
 
-button {
+.signup {
     background-color: #3882F6;
-    border-radius: 15px;
+    border-radius: 8px;
     color: white;
     font-weight: bold;
     padding: 10px;
     width: 100px;
     height: 35px;
+    
+    
 }
 
 .secondtitle {
@@ -102,6 +105,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 48px;
+    padding-bottom: 96px;
 }
 
 .image1, .image2, .image3, .image4 {
@@ -111,4 +115,95 @@ button {
 
 .caption1, .caption2, .caption3, .caption4  {
     display: block; 
+}
+
+.quotesection {
+    background-color: #E5E7EB;
+}
+
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    padding-left: 256px;
+    padding-right: 256px;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+div.quotee {
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: auto;
+}
+
+.ctasquare {
+    display: flex;
+    flex: 1;
+    background-color: #3882F6;
+    margin-top: 96px;
+    margin-bottom: 96px;
+    margin-left: 192px;
+    margin-right: 192px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-right: 96px;
+    padding-left: 96px;
+    border-radius: 8px;
+}
+
+div.ctatextcontainer {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    align-items: left;
+  
+}
+
+.buttoncontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    margin-left: auto;
+}
+
+.ctatitle {
+    color:#F9FAF8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.ctacopy {
+    color:#F9FAF8;
+}
+
+button.ctasignup {
+    display: flex;
+    justify-content: center;
+    border-color: white;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    width: 100px;
+    height: 35px;
+}
+
+.footer {
+    margin-top: auto;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
